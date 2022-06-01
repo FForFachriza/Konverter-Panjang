@@ -47,21 +47,21 @@ angkam.addEventListener("change", () => {
 });
 
 angkadm.addEventListener("change", () => {
-  dam = angkadam.value;
-  angkakm.value = (dam / 10000).toFixed(2);
-  angkahm.value = (dam / 1000).toFixed(2);
-  angkam.value = (dam / 100).toFixed(2);
-  angkadam.value = (dam / 10).toFixed(2);
-  angkacm.value = (dam * 10).toFixed(2);
-  angkamm.value = (dam * 100).toFixed(2);
+  dm = angkadm.value;
+  angkakm.value = (dm / 10000).toFixed(2);
+  angkahm.value = (dm / 1000).toFixed(2);
+  angkam.value = (dm / 100).toFixed(2);
+  angkadam.value = (dm / 10).toFixed(2);
+  angkacm.value = (dm * 10).toFixed(2);
+  angkamm.value = (dm * 100).toFixed(2);
 });
 
 angkacm.addEventListener("change", () => {
   cm = angkacm.value;
   angkakm.value = (cm / 100000).toFixed(2);
   angkahm.value = (cm / 10000).toFixed(2);
-  angkam.value = (cm / 1000).toFixed(2);
-  angkadam.value = (cm / 100).toFixed(2);
+  angkadam.value = (cm / 1000).toFixed(2);
+  angkam.value = (cm / 100).toFixed(2);
   angkadm.value = (cm / 10).toFixed(2);
   angkamm.value = (cm * 10).toFixed(2);
 });
@@ -70,8 +70,8 @@ angkamm.addEventListener("change", () => {
   mm = angkamm.value;
   angkakm.value = (mm / 1000000).toFixed(2);
   angkahm.value = (mm / 100000).toFixed(2);
-  angkam.value = (mm / 10000).toFixed(2);
-  angkadam.value = (mm / 1000).toFixed(2);
+  angkadam.value = (mm / 10000).toFixed(2);
+  angkam.value = (mm / 1000).toFixed(2);
   angkadm.value = (mm / 100).toFixed(2);
   angkacm.value = (mm / 10).toFixed(2);
 });
